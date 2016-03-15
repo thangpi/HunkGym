@@ -1,12 +1,12 @@
 } 
 html{ 
   height: 100%;
-  background-color: blue; 
+  background-color: black; 
 }
 
 body{ 
   font: normal 80% Arial, Helvetica, sans-serif;
-  color: #00FFFF;  /*ljusbrå*/
+  color: black; 
 }
 
 a.hover{ 

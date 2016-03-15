@@ -1,0 +1,25 @@
+} 
+html{ 
+  height: 100%;
+  background-color: blue; 
+}
+
+body{ 
+  font: normal 80% Arial, Helvetica, sans-serif;
+  color: #00FFFF;  /*ljusbrå*/
+}
+
+a.hover{ 
+  color: #e60000;
+  background: transparent;
+  outline: none;
+  text-decoration: underline;
+ }
+
+nav{ 
+  width: 940px;
+  height: 50px;} 
+#meny{
+	width: 940px;
+	height: 50px;
+}

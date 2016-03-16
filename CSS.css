@@ -148,6 +148,7 @@ a:hover, a:active{
 
 .mainFooter {
 	width: 100%;
+	height: 40px;
 	float: left;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -158,6 +159,36 @@ a:hover, a:active{
 
 .mainFooter p {
 	width: 92%;
-	margin: 2% auto;
+	margin: 1% auto;
 	color: white;
 }
+
+@media only screen and (min-width: 150px) and (max-width: 600px){
+	.body{
+		width: 90%;
+		font-size: 95%;	
+	}
+
+	.mainHeader img{
+		width: 100%;
+	}
+
+	.mainHeader nav{
+		height: 160px;
+	}
+
+	.mainHeader nav ul{
+		padding-left: 0
+	}
+
+	.mainHeader nav ul li{
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited{
+		padding: 14px 25px; /* positionen för länkarna */
+		height: 22px;/* fixar storlek på färgen som täcker länken */
+		display: block;
+	}
+} 

@@ -18,7 +18,7 @@ a:link, a:visited{
 a:hover, a:active{
 
 }
-
+<!-- om Headerlänkar -->
 .body{
 	margin: 0 auto;
 	width: 70%;
@@ -49,6 +49,20 @@ a:hover, a:active{
 	float: left;
 	display: inline;
 }
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 14px 25px; /* positionen för länkarna */
+	height: 22px;/* fixar storlek på färgen som täcker länken */
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active /* hover är för att kunna se färg på texten som man täcker över */
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited{ /*här vill vi aktivera alla länkar*/
+	background-color: #001a66; /* mörkblå */
+	text-shadow: none;
+}
+<!-- till hit -->
 
 .mainContent{
 

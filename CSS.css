@@ -18,7 +18,7 @@ a:link, a:visited{
 a:hover, a:active{
 
 }
-<!-- om Headerlänkar -->
+/* om Headerlänkar */
 .body{
 	margin: 0 auto;
 	width: 70%;
@@ -45,12 +45,12 @@ a:hover, a:active{
 
 }
 
-.mainHeader nav ul li {
+.mainHeader nav ul li{
 	float: left;
 	display: inline;
 }
 
-.mainHeader nav a:link, .mainHeader nav a:visited {
+.mainHeader nav a:link, .mainHeader nav a:visited{
 	color: #FFF;
 	display: inline-block;
 	padding: 14px 25px; /* positionen för länkarna */
@@ -62,9 +62,30 @@ a:hover, a:active{
 	background-color: #001a66; /* mörkblå */
 	text-shadow: none;
 }
-<!-- till hit -->
 
-.mainContent{
-
+.mainHeader nav ul li a{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
+/* till hit */
+
+
+
+.mainContent{
+	line-height: 22px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	overflow: hidden; /* overflow är när två container är på varann vilket gör att man kan klicka på en container*/
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.topcontent {
+	background-color: 
+}

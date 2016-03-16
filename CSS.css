@@ -32,7 +32,7 @@ a:hover, a:active{
 }
 
 .mainHeader nav{
-	background-color: #808080;
+	background-color: #808080; /*gray*/
 	height: 50px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -87,5 +87,19 @@ a:hover, a:active{
 }
 
 .topcontent {
-	background-color: 
+	background-color: gray; /*vitt*/
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%
+}
+
+.bottomcontent {
+	background-color: #808080; /*gray*/
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%
 }

@@ -75,7 +75,7 @@ a:hover, a:active{
 
 
 .mainContent{
-	line-height: 22px;
+	line-height: 25px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -105,6 +105,12 @@ a:hover, a:active{
 	margin-top: 2%
 }
 
+.post-info{
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+
 .top-sidebar {
 	width: 21%;
 	float: left;
@@ -116,12 +122,6 @@ a:hover, a:active{
 	margin-bottom: 2%;
 	margin-top: 2%;
 	padding: 2% 3%;
-}
-
-.post-info{
-	font-style: italic;
-	color: #999;
-	font-size: 97%;
 }
 
 .middle-sidebar {
@@ -154,12 +154,12 @@ a:hover, a:active{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	background-color: #808080; /* grå */
-	margin: 0.5% 0;
+	margin: 2% 0;
 }
 
 .mainFooter p {
 	width: 92%;
-	margin: 1% auto;
+	margin: 10px auto;
 	color: white;
 }
 
@@ -187,8 +187,40 @@ a:hover, a:active{
 	}
 
 	.mainHeader nav a:link, .mainHeader nav a:visited{
-		padding: 14px 25px; /* positionen för länkarna */
-		height: 22px;/* fixar storlek på färgen som täcker länken */
+		padding: 10px 25px; /* positionen för länkarna */
+		height: 20px;/* fixar storlek på färgen som täcker länken */
 		display: block;
+	}
+
+	.content {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+
+	.post-info{
+		display:none;
+	}
+
+	.topcontent {
+		background-color: gray; /*vitt*/
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		padding: 3% 5%;
+		margin-top: 2%
+		margin-bottom:4%;
+	}
+
+	.bottomcontent {
+		margin-top: 3%
+	}
+
+
+	.top-sidebar, .middle-sidebar, .bottom-sidebar {
+		width: 94%;
+		float: left;
+		margin: 2% 0 2% 0;
+		padding: 2% 3%;
 	}
 } 

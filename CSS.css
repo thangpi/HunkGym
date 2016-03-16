@@ -1,25 +1,35 @@
-} 
-html{ 
-  height: 100%;
-  background-color: black; 
-}
-
 body{ 
-  font: normal 80% Arial, Helvetica, sans-serif;
-  color: black; 
+	background-image: url('img/weights.jpg');
+	color: white;
+	font-size: 87.5%; /* vanligt front-size är 14px */ 
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
 }
 
-a.hover{ 
-  color: #e60000;
-  background: transparent;
-  outline: none;
-  text-decoration: underline;
- }
-
-nav{ 
-  width: 940px;
-  height: 50px;} 
-#meny{
-	width: 940px;
-	height: 50px;
+a {
+	text-decoration: none;
 }
+
+a:link, a:visited {
+
+}
+
+a:hover, a:active{
+
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainheader img{
+	width: 35%;
+}
+
+.mainContent{
+
+}
+

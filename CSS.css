@@ -7,11 +7,11 @@ body{
 	text-align: left;
 }
 
-a {
+a{
 	text-decoration: none;
 }
 
-a:link, a:visited {
+a:link, a:visited{
 
 }
 
@@ -19,14 +19,35 @@ a:hover, a:active{
 
 }
 
-.body {
+.body{
 	margin: 0 auto;
 	width: 70%;
 	clear: both;
 }
 
-.mainheader img{
+.mainHeader img{
 	width: 35%;
+	height: auto;
+	margin: 2% 0;
+}
+
+.mainHeader nav{
+	background-color: #808080;
+	height: 50px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul{
+	list-style: none;
+	margin: 0 auto; /* har margin för att kontrollera mellan rum  */
+
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
 }
 
 .mainContent{

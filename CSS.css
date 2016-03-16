@@ -12,11 +12,12 @@ a{
 }
 
 a:link, a:visited{
-
+	color: #001a66; /* mörkblå */
 }
 
 a:hover, a:active{
-
+	background-color: #001a66;
+	color: #FFF; /* vitt */
 }
 /* om Headerlänkar */
 .body{
@@ -115,6 +116,12 @@ a:hover, a:active{
 	margin-bottom: 2%;
 	margin-top: 2%;
 	padding: 2% 3%;
+}
+
+.post-info{
+	font-style: italic;
+	color: #999;
+	font-size: 97%;
 }
 
 .middle-sidebar {

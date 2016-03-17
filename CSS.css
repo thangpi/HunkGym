@@ -70,7 +70,7 @@ a:hover, a:active{
 	-webkit-border-radius: 5px;
 }
 
-/* till hit */
+/* till hit, detta är alltså en konstant kod */
 
 
 
@@ -162,6 +162,31 @@ a:hover, a:active{
 	margin: 10px auto;
 	color: white;
 }
+
+/* Koder för länken Contact Us */
+
+.mainContent-ContactUs{
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* overflow: hidden;  overflow är när två container är på varann vilket gör att man kan klicka på en container*/
+}
+
+.content-ContactUs {
+	width: 70%;
+	float: left;
+}
+
+.topcontent-ContactUs {
+	background-color: gray; /*vitt*/
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+/* Lägg inte mycket fokus på detta än */
 
 @media only screen and (min-width: 150px) and (max-width: 600px){
 	.body{
